@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"> 
+    <link type="text/css" rel="stylesheet" href="bootstrap.min.css" />
+    <link type="text/css" rel="stylesheet" href="index.css"/>
+    <script src="login.js"></script>   
+   
+    <title>Library Entry Card</title>
+    
+  </head> 
+  <body>
+    <div align="center"  class="gradient-text"><h1 id="head">Library Entry Record </h1></div>
+    <div align="left"><button class="btn btn-info" id="button" onclick="myclick()" >Refresh</button></div>
+    
+    <table id="mytable" border="1" class="table table-striped gradient-text">
+      <tr>
+       <td>User Information</td>
+       <td>Time Record</td>
+       <td>Comment</td>      
+      </tr>
+     </table><br>
+     <div align="right"><button class="btn btn-danger" id="button" onclick="logout()" >Logout</button></div>
+            
+    
+    <script defer src="/__/firebase/6.4.2/firebase-app.js"></script>
+    <script defer src="/__/firebase/6.4.2/firebase-auth.js"></script>
+    <script defer src="/__/firebase/6.4.2/firebase-database.js"></script>
+    <script defer src="/__/firebase/6.4.2/firebase-storage.js"></script>
+    <script defer src="/__/firebase/6.4.2/firebase-firestore.js"></script>
+    <script defer src="/__/firebase/init.js"></script>
+    
+    <script src="index.js"></script>
+   
+
+  </body>
+ 
+</html>
